@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header1{
+    background-color:#fafafa;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.u-list{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+
+}
+
+.search-item{
+    margin-right: 20px;
+}
+.login-items{
+    margin-right: 10px;
+    margin-left: auto;
+}
+.logo-item{
+    margin-left: 20px;
+    margin-right: auto;
+}
+
+.hero{
+width: 100%;
+}
+
+.image-content{
+    position: absolute;
+    left: 1200px;
+    bottom: 160px;
+}
+
+.sellingpoint{
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+}
+
+.article-item{
+    border-radius: 5px;
+    width: 280px;
+    height: 150px;
+    background-color: rgba(250,250,250,255);
+}
+.car{
+    margin-top: 90px;
+    width: 650px;
+    height: 325px;
+}
+
+.order-car{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.main-footer{
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.till {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.info-item{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.info{
+   list-style: none;
+
+}
+.media{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.sweden{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.copyright{
+    margin-bottom: 40px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
